@@ -1,0 +1,35 @@
+PODS:
+  - agora_rtc_engine (1.0.1):
+    - AgoraRtcEngine_iOS (= 2.9.1)
+    - Flutter
+  - AgoraRtcEngine_iOS (2.9.1)
+  - Flutter (1.0.0)
+  - permission_handler (3.3.0):
+    - Flutter
+
+DEPENDENCIES:
+  - agora_rtc_engine (from `.symlinks/plugins/agora_rtc_engine/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+
+EXTERNAL SOURCES:
+  agora_rtc_engine:
+    :path: ".symlinks/plugins/agora_rtc_engine/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+
+SPEC CHECKSUMS:
+  agora_rtc_engine: 869b652afb7c72b0cf143b86c7e36d0dea9a84ee
+  AgoraRtcEngine_iOS: b2eedd8f9ab47b71163f3285e836bd23feb43fff
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  permission_handler: 67637977b227d62d46bfbf524f335f8568de5a73
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.8.4
